@@ -1,4 +1,5 @@
 import HelloWorld from "@/components/HelloWorld";
+import Tables from "@/components/ui/Tabltes";
 import { View } from "react-native";
 export default function Index() {
   return (
@@ -9,6 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}>
       <HelloWorld />
+      <Tables />
     </View>
   );
 }

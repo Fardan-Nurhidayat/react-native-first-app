@@ -19,7 +19,8 @@ export default function Button({ type, onClick, children }: ButtonProps) {
         borderRadius: 5,
         fontSize: 16,
       }}
-      onClick={onClick}>
+      onClick={onClick}
+    >
       {children}
     </button>
   );
